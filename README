@@ -1,0 +1,23 @@
+BluChat is a J2ME bluetooth (JSR-82) based chat application, capable of running on devices supporting MIDP 2.0/ CLDC 1.1. 
+This application uses LWUIT (v1.4) API for creating the UI. More details can be found at:
+http://www.oracle.com/technetwork/java/javame/tech/lwuit-141954.html
+
+The source code for BluChat is provided under the license terms specified in the accompanying LICENSE file. Please note that only the source code for the application is being provided and you will need to create the required resources, i.e. image files and theme file before trying to build this project. 
+
+Steps for building the project from source:
+1. Download LWUIT v1.4 from the official LWUIT site.
+2. Create a new J2ME project in your preferred IDE.
+3. Add the LWUIT.jar as a project dependency.
+4. Import the BluChat sources into your project.
+5. Add the image files and the LWUIT theme file to your project.
+6. Define the project properties as MIDP 2.0 / CLDC 1.1 along with JSR 82 support.
+7. Build and run the project.
+
+It is recommended that you have a working knowledge of the following technologies to understanding the source code of this application:
+J2ME
+JSR 82
+LWUIT
+
+In case of any code related queries and or help requests, please drop in a mail with the subject line "BluChat source code" to mobile@pksarena.com
+
+Happy Coding :)
